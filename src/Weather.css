@@ -1,0 +1,124 @@
+body {
+  background-image: url("https://pub-static.fotor.com/assets/bg/247d99f6-6217-4573-8ade-ce8043170fcd.jpg");
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  border: 1px solid rgba(247, 227, 227, 0.4);
+  box-shadow: 2px 2px 4px rgba(27, 27, 27, 0.5);
+  background-color: rgba(153, 152, 152, 0.2);
+  border-radius: 8px;
+  max-width: 78%;
+  width: fit-content;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.form {
+  padding-bottom: 5px;
+  justify-content: center;
+}
+.search-input {
+  width: 65%;
+  padding: 14px;
+  border-style: none;
+  border-radius: 6px;
+  background-color: rgba(153, 142, 142, 0.5);
+  font-size: 14px;
+}
+.submit-btn {
+  width: 80px;
+  padding: 12px;
+  background-color: rgb(211, 92, 211);
+  border-style: none;
+  border-radius: 6px;
+  color: whitesmoke;
+  font-size: 17px;
+  margin-left: 2px;
+}
+
+.Humidity-windspeed {
+  color: rgb(236, 96, 119);
+  font-weight: bold;
+  list-style: none;
+  position: relative;
+  bottom: -10px;
+  right: 40px;
+}
+.details {
+  color: rgb(51, 48, 48);
+  font-weight: 500;
+  margin-bottom: -65px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  bottom: -10px;
+  right: 40px;
+}
+.description-title {
+  color: rgb(236, 96, 119);
+  position: relative;
+  bottom: -10px;
+  right: 40px;
+  font-weight: bold;
+}
+.description {
+  list-style: none;
+}
+
+.current-temperature {
+  position: relative;
+  left: 20px;
+  top: 2px;
+}
+
+.temperature {
+  position: relative;
+  left: 90px;
+  top: -10px;
+  font-size: 50px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.icon {
+  position: relative;
+  left: -5px;
+  top: -168px;
+  list-style: none;
+}
+
+.units {
+  position: relative;
+  left: -5px;
+  top: -30px;
+  font-size: 26px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.weather-forecast-day {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(90, 83, 83);
+}
+.weather-temprature {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(236, 96, 119);
+}
+.max-temprature {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 12px;
+  border-top: 2px solid rgba(153, 142, 142, 0.1);
+  padding-top: 5px;
+  font-size: 14px;
+}
