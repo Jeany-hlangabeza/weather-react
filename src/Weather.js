@@ -70,18 +70,15 @@ export default function Weather(props, index) {
                 <img src={temperature.icon} alt="weather-icon" />
               </li>
             </ul>
-            <div className="footer">
-              <p>
-                open-sourced on{" "}
-                <a href="https://github.com/Jeany-hlangabeza/weather-react">
-                  Github
-                </a>
-                and hosted on{" "}
-                <a href="https://bright-sherbet-9ff2cd.netlify.app/">Netlify</a>
-              </p>
-            </div>
+            <div className="footer"></div>
           </div>
         )}
+        <p>
+          open-sourced on{" "}
+          <a href="https://github.com/Jeany-hlangabeza/weather-react">Github</a>
+          and hosted on{" "}
+          <a href="https://bright-sherbet-9ff2cd.netlify.app/">Netlify</a>
+        </p>
       </div>
     </body>
   );
