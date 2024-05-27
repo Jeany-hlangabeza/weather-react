@@ -75,9 +75,21 @@ export default function Weather(props, index) {
         )}
         <p>
           open-sourced on{" "}
-          <a href="https://github.com/Jeany-hlangabeza/weather-react">Github</a>
+          <a
+            href="https://github.com/Jeany-hlangabeza/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
           and hosted on{" "}
-          <a href="https://bright-sherbet-9ff2cd.netlify.app/">Netlify</a>
+          <a
+            href="https://bright-sherbet-9ff2cd.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
         </p>
       </div>
     </body>
