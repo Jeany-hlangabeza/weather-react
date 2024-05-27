@@ -57,13 +57,14 @@ export default function Weather(props, index) {
                 <span className="units">℃</span>
               </li>
               <li key={index} className="Humidity-windspeed">
+                {" "}
                 Humidity: {temperature.humidity}%
               </li>
               <li key={index} className="Humidity-windspeed">
                 Wind: {temperature.wind} km/h
               </li>
               <li key={index} className="description">
-                <em className="description-title">Description:</em>
+                <span className="description-title">Description: </span>
                 <span className="details"> {temperature.description} </span>
               </li>
               <li key={index} className="icon">
